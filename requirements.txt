@@ -1,0 +1,6 @@
+openai>=1.0.0
+pyyaml>=6.0
+numpy>=1.24
+qdrant-client>=1.7
+sentence-transformers>=2.2
+torch

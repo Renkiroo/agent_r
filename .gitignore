@@ -1,0 +1,23 @@
+# Local overrides (API keys) — not committed
+config.local.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Experiment outputs
+results/runs/
+results/cod/
+results/gap_agent/
+results/smoke_*
+*.nohup.log
+*.pid
+
+# IDE / OS
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

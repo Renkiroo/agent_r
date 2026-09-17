@@ -1,0 +1,17 @@
+# Copy to config.local.yaml and edit API keys for your machine.
+# config.local.yaml is auto-merged on top of any --config file.
+# DO NOT commit config.local.yaml.
+
+data_path: ./data/locomo10.json
+subset_path: ./data/locomo_100.json
+collision_path: ./data/topic_address_collision_locomo.json
+raw_store_dir: ./qdrant_raw
+results_root: ./results/runs
+openai_api_key: YOUR_OPENAI_API_KEY
+openai_api_base: https://api.openai.com/v1
+llm_model: gpt-4o-mini
+judge_model: gpt-4o-mini
+embed_model: sentence-transformers/all-MiniLM-L6-v2
+device: cpu   # use cuda if available
+expand_window: 2
+raw_dense_top_k: 60
